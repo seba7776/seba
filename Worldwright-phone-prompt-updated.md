@@ -390,17 +390,17 @@ He approved the phases without answering these, so I took the defaults shown. An
 ### 8.1 Answers to the questions in Part 7
 
 1. [decided] Keep the new mountains exactly as drawn. (He picked "Keep as they are" for size, number, snow and grey ground.)
-2. [decided] Make the lower mountains stop creatures completely, not just slow them. He did not want gaps or passes: he picked "Stop them completely", not "Stop them, but leave passes".
+2. [decided] Make the lower mountains stop creatures completely, not just slow them. He first picked "Stop them completely", and when I asked about enclosed valleys and Maze worlds he picked "Leave natural gaps": world generation should always leave a few passes so creatures are never trapped.
 3. [decided] Draw a wading picture for creatures in shallow water. He did not choose to keep them out of water.
 4. [decided] The interface: he dislikes the colours, the layout and button pictures, and too much on screen. He has no game in mind as an example ("No idea yet"). Redesign it at the **end of Phase 2**, not before. Until then, build the Phase 2 windows plainly in the current style, as Part 6 planned.
 5. [decided] Animals and first people: he picked "Show me first". Send screenshots of the four placeholder animals and the Strider and let him decide whether to keep or redraw them before more are made.
 6. [decided] The four peoples coming next: keep all four and their names as written in 3.2 (Verran, Ysmeri, Mogren, Sethari). He had no wishes about how they look.
-7. [decided] Animal list: keep the twelve in 3.3 and **add** fish, insect swarms, tame animals and the five mythic beasts. He ticked all four of these kinds. He also picked "Add some" without naming other animals, so there may be more (see 8.7).
+7. [decided] Animal list: keep the twelve in 3.3 and **add** fish, insect swarms, tame animals and the mythic beasts, all in Phase 2. When I asked what else, he ticked sea creatures (whales, sharks, turtles, crabs, jellyfish), birds (songbirds, flocks, owls), farm and pet animals (sheep, cattle, horses, dogs, cats) and reptiles and monsters (snakes, lizards, giant worms, spiders). The exact species still need his approval on an art sheet.
 8. [decided] Order within Phase 2: he wants all four of these early: a title screen and quit button, sound, click-to-inspect windows, and truly fast fast-forward. If only one can come first, it is **click a creature to inspect it**, and it should "show stats too". He wants the inspector to cover needs (hunger, thirst, tiredness, cold, health), body and genes (age, sex, inherited traits), mind and relationships (personality, mood, skills, memories, family, for peoples), and species totals and graphs. He gave no order for the other three.
 9. [decided] How often to show him things: only at the end of each phase, with one exception: stop for his approval on each **art sheet** (new animals, new peoples) before more is built on it.
 10. [decided] Sound: a mix of natural and musical. Natural ambience with gentle music over it.
 11. [decided] Studio name: **Worldwright**. He said "Use Worldwright", which I took to mean the studio name is the same as the game's name.
-12. [decided] Do **not** merge the side branch into the main project folder yet. He said "Not yet" and gave no condition.
+12. [decided] Do **not** merge the side branch into the main project folder yet. Merge it **after Phase 2 is approved**.
 13. [decided] Windows version: wait until the project moves to his PC. Do not do the large download now.
 14. [decided] Low Power Mode: he never plays with it on. No on-screen notice needed.
 
@@ -412,16 +412,16 @@ He approved the phases without answering these, so I took the defaults shown. An
 
 ### 8.3 Changes to what exists now
 
-1. [change] Make lower mountains block creatures. They must route around, as with the snowy peaks. The Maze world, where mountain walls may enclose an area, needs a check (see 8.7).
+1. [change] Make lower mountains block creatures. They must route around, as with the snowy peaks. World generation must leave a few natural gaps so no area is sealed off, including in the Maze world.
 2. [change] Draw creatures wading in shallow water instead of standing on it.
 3. [change] The World tab buttons must ask "are you sure?" before throwing the current world away. ("Ask 'are you sure?'")
-4. [change] Reduce the number of speeds. He picked "Fewer speeds" and did not say which to keep (see 8.7).
-5. [change] Make Clear selective, so he can choose what it removes (plants, rocks, fire, water, lava). He first ticked "Fine as they are" and also "Clear should be selective"; when I asked again he said "Make it selective".
-6. [change] Make Plant offer more kinds of tree than the oak.
-7. [change] Add a legend to the map lens that explains the colours, and add more lenses than heat, rainfall and height. He did not say which. He also ticked "Fine as it is", which I took to mean the three existing lenses stay.
+4. [change] Reduce the speeds to **pause, 1x, 5x, 25x and 100x**, on both the top bar and the number keys.
+5. [change] Make Clear selective, so he can choose what it removes: plants only, fire only, water and lava only, or rocks and boulders only. He first ticked "Fine as they are" and also "Clear should be selective"; when I asked again he said "Make it selective".
+6. [change] Make Plant offer more than the oak: pine, jungle tree and small oak, bush and cactus, reeds and flowers, and an automatic mode that plants what suits the ground.
+7. [change] Add a legend to the map lens that explains the colours, and add lenses for population, food and grazing, and species. Lenses for borders, faith and language come later, when those systems exist. He also ticked "Fine as it is", which I took to mean the three existing lenses stay.
 8. [change] Add a help screen that lists the controls, and a way to rebind the keys.
 9. [change] Redesign the interface at the end of Phase 2: colours, layout, button pictures, and less on screen.
-10. [change] Make the Phase 2 inspector show the four groups of stats listed in 8.1, number 8.
+10. [change] Make the Phase 2 inspector show the four groups of stats listed in 8.1, number 8, as bars, with exact numbers when he hovers over a bar.
 
 ### 8.4 New things he wants
 
@@ -479,7 +479,7 @@ He approved the phases without answering these, so I took the defaults shown. An
 - Plague: starts a disease in a herd or people.
 
 **Creatures and terrain (he chose all of these)**: Mythic beasts and Dragon, Grow Volcano, Raise Island, Make River, Dig Canyon, Flatten, Smooth, Freeze, Melt.
-- Mythic beasts and Dragon: summon any of the five mythic beasts (wyrm, stormhawk, glimmer-stags, deep leviathan, ashbeast) and a dragon. Note that the dragon is not in the current plan.
+- Mythic beasts and Dragon: summon any of the five mythic beasts (wyrm, stormhawk, glimmer-stags, deep leviathan, ashbeast) and a dragon. He decided the dragon is a **sixth mythic beast**, added to the list.
 - Grow Volcano: builds a cone that erupts from time to time.
 - Raise Island: lifts a new island out of the sea.
 - Make River: a lasting stream that cuts its way to the sea.
@@ -487,23 +487,35 @@ He approved the phases without answering these, so I took the defaults shown. An
 - Flatten and Smooth: level the ground to one height, or soften sharp changes.
 - Freeze and Melt: turn water to ice and back, or snow to water.
 
-3. [sooner] Powers that need no peoples (disasters, bombs, weather, terrain, life powers on animals) could be built any time after the current seasons work. He did not say when he wants them. He did say he wants the list to be big (see 8.7).
+3. [sooner] Build **all the powers that need no peoples** (disasters, bombs, weather, terrain, life powers on animals) **in Phase 2**, after the seasons work. Review them with him **in small groups** (disasters first, then bombs, and so on), each with pictures, before building. He wants every power to have a big visual effect, its own sound, a lasting mark on the world (scorches, craters, cracked ground), and creatures that react (panic, flee, mourn, pray).
 4. [new] **Miracles** (Phase 5) work **both ways**: he can aim a miracle at a person or a place himself, and he can answer prayers that peoples send him.
 5. [decided] **Sandbox** (everything free) is the main way to play. Divine mode, where powers cost faith, is the optional one.
 6. [later] Rewinding time and branching histories stay in Phase 5 as planned. He wants all three kinds eventually (a few minutes, years or centuries, and branching alternate worlds) but calls it low priority.
 7. [sooner] **Rules for the god** (powers that act on their own, like "when a fire starts, send rain") are important to him. He first said "Very, I want them early" and then, when asked how early, picked "Before the god phase", meaning in Phase 3 or 4 rather than Phase 5.
 
+8. [new] **Animation everywhere.** He wants animation for fire, water, lava, grass, every power, animals doing things, and people mining and doing their jobs. He picked "Lots of actions": each activity gets its own animation. (This is a large piece of work and grows with each system.)
+9. [new] **Visual touches:** day and night, season looks (autumn leaves, snow, blossoms), and weather effects (rain drops, snow flakes, lightning flashes, fog).
+10. [new] **Extra player tools:** follow a creature with the camera, a screenshot or photo mode that hides the interface, notifications when something big happens (an extinction, a big fire), and a world setup screen (kind, size, seed, sea level).
+11. [new] **Game features:** a save and load screen for several worlds, a pause menu with settings and quit, a tutorial or hints, and achievements and scenarios.
+12. [new] **Reaching many powers without clutter:** use both categories with sub-menus, and a search box with pinned favourites. ("Both")
+13. [new] **Names:** peoples' languages generate names automatically, and he can rename any creature, village or species himself. ("Both")
+14. [new] **Doing things to peoples** (Phases 3 to 5): give gifts (tools, crops, animals, knowledge), start wars or peace, spawn a prophet or hero, drop artifacts, put fate marks on creatures, and nudge a people's culture, beliefs, language or customs. He did **not** ask for placing buildings for them.
+15. [decided] **How peoples react to disasters and wrecking:** they worship or fear him, they rebuild, they flee or migrate, and the chronicle writes it into history. All four.
+16. [decided] **Rival gods** stay as already planned in Part 4. He did not tick them as an extra.
+
 ### 8.5 What to do first, in his order of importance
 
-He gave only one clear order: **click a creature to inspect it** comes first among the four he named. He did not rank the rest. My reading, for the build session to confirm with him:
+He gave one clear first item (**click a creature to inspect it**) and an order for three more. The rest is my reading, for the build session to check with him at the first checkpoint:
 
 1. Finish the seasons and weather work in progress.
 2. The click-to-inspect windows with stats.
-3. The small fixes: lower mountains block creatures, wading picture, "are you sure?" on new worlds.
-4. The title screen and quit button, sound, and truly fast fast-forward, in an order he has not given.
-5. The first four peoples and the larger animal list, with an art sheet for his approval before more is built.
-6. The big list of powers in 8.4, in pieces.
-7. The interface redesign at the end of Phase 2.
+3. The small fixes: lower mountains block creatures (with natural gaps), wading picture, "are you sure?" on new worlds.
+4. Title screen and quit button, then sound, then truly fast fast-forward. (His order.)
+5. The first four peoples and the larger animal list, starting with **sea creatures** on the first art sheet, with his approval before more is built.
+6. The no-people powers in 8.4, in small reviewed groups.
+7. The interface redesign at the end of Phase 2 (or the last part of it, if Phase 2 is split).
+
+**Phases.** He told me Phase 2 holds too much: **split the work among the later phases, adding new phases if needed, but never more than 10 phases in total.** There are six today, so up to four more can be added. [change] The build session should propose a new phase list to him, and he must approve it.
 
 ### 8.6 Things to leave alone
 
@@ -517,17 +529,11 @@ He gave only one clear order: **click a creature to inspect it** comes first amo
 
 ### 8.7 Open questions for the build session
 
-1. [ask] Which speeds should stay when there are fewer? (I offered pause, 1x, 5x, 25x and 100x as an example. He just said "Fewer speeds".)
-2. [ask] Which extra lenses does he want (population, food, and so on)?
-3. [ask] Which other animals does he want beyond the twelve plus fish, insect swarms, tame animals and mythic beasts? He picked "Add some" but named none.
-4. [ask] Which trees should Plant offer, and what exactly should Clear be able to filter?
-5. [ask] If the lower mountains fully block creatures, a Maze world or an enclosed valley could trap creatures. Is that fine, or should some areas have passes? He said no passes.
-6. [ask] The dragon in the powers list is not in the current plan. Is it a mythic beast, or a separate creature?
-7. [ask] Part 4 says nothing is to be copied from the game that inspired Worldwright. He told me to research that game's powers. I only used its general categories and every name and behaviour above is my own, but he should confirm that this is what he means, and tell the build session if he wants it closer.
-8. [ask] How many of the powers in 8.4 should be in Phase 2, and which should wait for later phases?
-9. [ask] When can the side branch be merged? He said "Not yet", with no condition.
-10. [ask] "Stats" in the inspector: does he want them shown as numbers, bars, or both?
-11. [ask] Several answers were multiple-choice with two options that seemed to conflict (Plant, Clear, the lens, rewind). I asked again where I could; the build session may want to check the rest with him.
+1. [ask] Part 4 says nothing is to be copied from the game that inspired Worldwright. He told me to research that game's powers. I only used its general categories and every name and behaviour above is my own, but he should confirm that this is what he means, and tell the build session if he wants it closer.
+2. [ask] After you propose the new phase list (up to 10 phases), which of the items in 8.4 and 8.5 go in which phase? He asked to spread Phase 2 across later phases and did not say where each item goes.
+3. [ask] Animation: he wants "lots of actions" per creature. This is large, so show him what it would cost and let him choose what to cut if needed.
+4. [decided, not a question] Rules for the god: Phase 3 or Phase 4, whichever is easier. He also first said he wants them early, so do not leave them until Phase 5.
+5. [decided, not a question] Rewinding stays in Phase 5. He wants all three kinds eventually.
 
 ### 8.8 Anything else he said
 
